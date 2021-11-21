@@ -125,13 +125,13 @@ class PersonWidget extends StatelessWidget {
 
           Widget _buildRating() => ListTile(
             title: Text(
-              'Marco Veratti',
+              'Erling Haaland',
               style: TextStyle(
                 fontWeight: FontWeight.w500,
                 ),
               ),
               subtitle: Text(
-                'Football club PSG',
+                'Football club Borussia Dortmund',
               ),
               trailing: Row(
                 mainAxisSize: MainAxisSize.min,
