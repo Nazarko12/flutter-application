@@ -152,19 +152,6 @@ class ProfilePage extends StatelessWidget {
                         _settingRow(
                             context, Icons.lightbulb_outline, 'Night', val,
                             index: 1),
-                        _settingRow(context, Icons.notifications,
-                            'Notification', false),
-                        // SizedBox(height: 10),
-                        _settingRow(
-                            context, Icons.share, 'Social Media', false),
-                        SizedBox(height: 5),
-                        Divider(
-                          indent: 20,
-                          endIndent: 20,
-                          height: 0,
-                        ),
-                        SizedBox(height: 5),
-                        _logout(context, Icons.exit_to_app, 'Logout'),
                       ],
                     ),
                   ))
